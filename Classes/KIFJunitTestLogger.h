@@ -9,8 +9,6 @@
 #import "KIFTestLogger.h"
 #import "NSFileManager-KIFAdditions.h"
 
-#define KIFJunitTestLoggerEnabled = 1
-
 @interface KIFJunitTestLogger : KIFTestLogger {
     NSFileHandle* fileHandle;
 }

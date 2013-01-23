@@ -11,6 +11,10 @@
 #import "KIFTestScenario.h"
 #import "KIFTestStep.h"
 
+
+#define KIFJunitTestLoggerEnabled = 1
+#define KIFTestLoggerEnabled = 1
+
 @class KIFTestLogger;
 @protocol KIFTestLogger;
 
